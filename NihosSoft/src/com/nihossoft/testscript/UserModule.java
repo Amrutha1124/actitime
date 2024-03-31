@@ -1,19 +1,12 @@
 package com.nihossoft.testscript;
 
 import java.io.IOException;
-import java.time.Duration;
 
 import org.apache.poi.EncryptedDocumentException;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.nihossoft.generic.BaseClass;
-import com.nihossoft.pom.HomePage;
-import com.nihossoft.pom.UserListPage;
 @Listeners(com.nihossoft.generic.ListenerImplementation.class)
 public class UserModule extends BaseClass{
 	@Test
